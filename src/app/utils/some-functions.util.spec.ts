@@ -10,7 +10,13 @@ describe('Some Functions', () => {
   describe('capitalizeArrayOfStrings', () => {
 
     it('should capitalize array of strings', () => {
-      const result = capitalizeArrayOfStrings(['abc', 'foo', 'bar']);
+      // Arrange
+      const testStringsArray = ['abc', 'foo', 'bar'];
+
+      // Act
+      const result = capitalizeArrayOfStrings(testStringsArray);
+
+      // Assert
       expect(result).toEqual(['Abc', 'Foo', 'Bar']);
     });
 

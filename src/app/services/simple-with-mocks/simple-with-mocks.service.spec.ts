@@ -116,3 +116,30 @@ describe('SimpleWithMocksService - Spies', () => {
     });
   });
 });
+
+describe('SimpleWithMocksService - Integration', () => {
+  let service: SimpleWithMocksService;
+
+  const sumOfBasicConstants = pi + e + goldenRatio;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [
+        SimpleService
+      ]
+    });
+    service = TestBed.inject(SimpleWithMocksService);
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  describe('getSumOfBasicConstants', () => {
+    it('should return correct sum', () => {
+      const result = service.getSumOfBasicConstants();
+      expect(result).toEqual(sumOfBasicConstants);
+    });
+  });
+
+});
