@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'sample';
+
+  numbers = [];
+
+  addNumbers(): void {
+    this.numbers.push( (this.numbers.length + 1) * 100 );
+  }
+
 }

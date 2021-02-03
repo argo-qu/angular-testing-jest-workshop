@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleButtonComponent should look correctly without input 1`] = `
+"<button> 
+</button>"
+`;
+
+exports[`SimpleButtonComponent should look correspondingly to the Input 1`] = `
+"<button> Test text 1
+</button>"
+`;

@@ -1,0 +1,11 @@
+<h1>Это просто кнопка</h1>
+
+<app-simple-button text="Add numbers"
+                   (buttonClick)="addNumbers()"
+></app-simple-button>
+
+<ul>
+  <li *ngFor="let number of numbers">
+    {{ number }}
+  </li>
+</ul>
