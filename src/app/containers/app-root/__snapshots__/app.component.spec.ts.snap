@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent Integration should add numbers when clicking button 1`] = `"<h1>Это просто кнопка</h1><app-simple-button text=\\"Add numbers\\"><button> </button></app-simple-button><ul><!----></ul>"`;
+
+exports[`AppComponent Integration should add numbers when clicking button 2`] = `
+"<h1>Это просто кнопка</h1><app-simple-button text=\\"Add numbers\\" ng-reflect-text=\\"Add numbers\\"><button> Add numbers
+</button></app-simple-button><ul><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"100\\"
+}--><li> 100 </li></ul>"
+`;
+
+exports[`AppComponent Integration should add numbers when clicking button 3`] = `
+"<h1>Это просто кнопка</h1><app-simple-button text=\\"Add numbers\\" ng-reflect-text=\\"Add numbers\\"><button> Add numbers
+</button></app-simple-button><ul><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"100\\"
+}--><li> 100 </li><li> 200 </li><li> 300 </li><li> 400 </li></ul>"
+`;
+
+exports[`AppComponent Unit layout should look properly 1`] = `"<h1>Это просто кнопка</h1><app-simple-button text=\\"Add numbers\\"></app-simple-button><ul><!----></ul>"`;
+
+exports[`AppComponent Unit layout should look properly 2`] = `
+"<h1>Это просто кнопка</h1><app-simple-button text=\\"Add numbers\\"></app-simple-button><ul><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"100\\"
+}--><li> 100 </li></ul>"
+`;
+
+exports[`AppComponent Unit layout should look properly 3`] = `
+"<h1>Это просто кнопка</h1><app-simple-button text=\\"Add numbers\\"></app-simple-button><ul><!--bindings={
+  \\"ng-reflect-ng-for-of\\": \\"100\\"
+}--><li> 100 </li><li> 200 </li><li> 300 </li><li> 400 </li></ul>"
+`;
